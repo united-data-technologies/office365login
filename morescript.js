@@ -1,0 +1,1 @@
+﻿!function(){var o=window,e=o.document,i=o.$Config||{};if(o.self===o.top)e&&e.body&&(e.body.style.display="block");else if(!i.allowFrame){var s=o.self.location,l=s.indexOf("#"),n=-1!==l,t=s.indexOf("?"),d=n?l:s.length,f=-1===t||n&&t>l?"?":"&";s=s.substr(0,d)+f+"iframe-request-id="+i.sessionId+s.substr(d),o.top.location=s}}();
